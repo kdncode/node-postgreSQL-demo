@@ -10,7 +10,6 @@ const pool = new Pool({
   port: 5432,
 })
 
-
 /* GET home page. */
 router.get('/', function(req, res, next) {
   pool.query('SELECT * FROM contact', (err, res) => {
