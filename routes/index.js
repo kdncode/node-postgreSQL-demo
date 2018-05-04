@@ -35,5 +35,4 @@ router.post('/new', function(req, res, next) {
   res.render('new', { title: 'Add New Data' });
 });
 
-
 module.exports = router;
